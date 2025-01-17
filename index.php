@@ -1,5 +1,4 @@
 <?php
-    include("content.html");
     if (isset($_POST["send"])) {
         $message = $_POST["textcontent"];
         $output = fopen("output.txt", "a");
