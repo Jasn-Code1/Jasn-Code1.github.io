@@ -4,7 +4,7 @@ const pool = mysql.createPool({
     host: 'sql12.freesqldatabase.com',
     user: 'sql12758207',
     password: 'HkQSah6hhj',
-    database: 'information'
+    database: 'sql12758207'
 }).promise();
 
 const result = await pool.query("SELECT * FROM information");
