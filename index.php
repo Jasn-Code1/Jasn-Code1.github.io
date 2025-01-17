@@ -5,8 +5,8 @@
         "HkQSah6hhj",
         "sql12758207"
     );
-    if (isset($_POST["send"])) {
-        $message = $_POST["textcontent"];
+    if (isset($_GET["send"])) {
+        $message = $_GET["textcontent"];
         if (strlen($message) > 0){
             $addr = $_SERVER["REMOTE_ADDR"];
             /* $output = fopen("output.txt", "a");
