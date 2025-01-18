@@ -1,10 +1,10 @@
 import mysql from 'mysql2';
 
 const pool = mysql.createPool({
-    host: 'sql12.freesqldatabase.com',
-    user: 'sql12758207',
-    password: 'HkQSah6hhj',
-    database: 'sql12758207'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 }).promise();
 
 const result = await pool.query("SELECT * FROM information");
